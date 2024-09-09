@@ -1,0 +1,49 @@
+.sec1-parent{
+    /* background-color: rgb(255,254,246); */
+    height: 50%;
+    width: 80%;
+    padding-top: 5%;
+    /* background-color: yellow; */
+    margin: auto;
+}
+body{
+    background-color: rgb(255,253,246);
+
+}
+
+.parent-flex{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.study{
+    font-size: 34px;
+    font-weight: 900;
+    color: rgb(0,14,66);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: brown; */
+    margin-top: 10%;
+    top: 0;
+}
+
+.learn{
+    font-size: 18px;
+    font-weight: 900;
+    color: rgb(71, 71, 71);
+    margin-top: 20px;
+    /* background-color: aqua; */
+}
+.start{
+    margin-top: 20px;
+    width: 120px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: rgb(0,32,138);
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    /* font-weight: 500; */
+    
+
+}

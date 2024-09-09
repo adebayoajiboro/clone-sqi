@@ -1,0 +1,70 @@
+.threePeople{
+    width: 100%;
+}
+.girl{
+    width: 100%;
+}
+.guy{
+    width: 100%;
+}
+.section2Parent{
+    height: 100%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.parent{
+   display: flex;
+   gap: 50px;
+   margin-top: 2%;
+   /* background-color: green; */
+
+}
+
+.one{
+    width: 100%;
+}
+.two{
+    width: 100%;
+}
+
+.three{
+    width: 100%;
+}
+
+
+
+.starthere{
+    color: rgb(5,7,84);
+    font-size: 50px;
+    padding-top: 5%;
+}
+
+.allh2tag{
+    color: rgb(5,7,84);
+    padding-top: 20px;
+
+    
+}
+.allPtag{
+    color: rgb(102,111,124);
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+
+}
+
+.alllearnmore{
+    padding-top: 10px;
+}
+
+.alllearnmore2{
+    padding-top: 10px;
+}
