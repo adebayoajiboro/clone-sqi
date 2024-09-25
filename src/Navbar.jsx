@@ -2,6 +2,8 @@ import React from 'react'
 import "./Navbar.css"
 import imgg from "./imgages/sqi-logo.jpg"
 import { IoIosArrowDown } from "react-icons/io";
+import { Link } from 'react-router-dom'
+
 
 function Navbar() {
   return (
@@ -56,7 +58,8 @@ function Navbar() {
 
 
           <p>Admissions  <IoIosArrowDown className='ooo' /></p>
-          <p>E-Portal  <IoIosArrowDown className='ooo' /></p>
+          <Link to="/"><p>E-Portal  <IoIosArrowDown className='ooo' /></p></Link>
+          <Link to="/Dashboard">Dashboard</Link>
           <p>SQI Scholarship</p>
           <p>News</p>
 

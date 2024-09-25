@@ -1,6 +1,8 @@
 import React from 'react'
 import "./Section1.css"
 import imgg from "./imgages/bg-header-sqi-1.png"
+import { Link } from 'react-router-dom'
+
 
 
 
@@ -8,6 +10,8 @@ const Section1 = () => {
   return (
     <>
       <div className='sec1-parent'>
+      <Link to="/">E-Portal</Link>
+      <Link to="/Dashboard">Dashboard</Link>
 
         <div className='parent-flex'>
 

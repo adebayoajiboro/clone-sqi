@@ -7,6 +7,11 @@ import Letstart from './Letstart';
 import Navbar from './Navbar';
 import Section1 from './Section1';
 import Section2 from './Section2';
+import LeftDiv from './LeftDiv';
+import { Routes, Route, BrowserRouter } from "react-router-dom";
+import Dashboard from './Dashboard';
+import Errorpage from './Errorpage';
+
 
 
 
@@ -15,14 +20,25 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     {/* <Letstart/> */}
-    <Navbar/>
-    <Section1/>
+    {/* <Section1/>
     <Section2/>
-    
+    <LeftDiv/>
+    <Dashboard/> */}
+    <BrowserRouter>
 
-    
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Section1 />} />
+        <Route path="/Dashboard" element={<Dashboard />} />
+
+        <Route path="*" element={<Errorpage />} />
+      </Routes>
+    </BrowserRouter>
+
+
+
   </React.StrictMode>
-  
+
 );
 
 // If you want to start measuring performance in your app, pass a function
